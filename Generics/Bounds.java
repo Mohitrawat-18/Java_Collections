@@ -12,6 +12,8 @@ public class Bounds {
 // Bounds in Generics
 // Upper Bound -> T is atleast Number or its subtype
 
+// class Box<T extends Number & Primabale> {
+// Can use of interfaces also - Primabale -> Interface
 class Box<T extends Number> {
     T value;
 
