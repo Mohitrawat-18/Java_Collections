@@ -1,0 +1,2 @@
+Iterable have a method iterator() which return the object of another interface 
+Iterator interface.
