@@ -1,0 +1,14 @@
+// All Collection Methods
+
+1. int size();
+2. boolean isEmpty();
+3. boolean contains(Object o);
+4. Object[] toArray();
+5. <T> T[] toArray(T[] a); -> Overloaded toArray gives any type <T> of array
+6. boolean add(E e);
+7. boolean remove(Object o);
+8. boolean addAll(Collection<? extends E> c);
+9. boolean containsAll(Collection<?> c);
+10. boolean removeAll(Collection<?> c);
+11. boolean retainAll(Collection<?> c);
+12. void clear();
