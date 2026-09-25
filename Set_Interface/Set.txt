@@ -1,0 +1,23 @@
+Set :
+-> No Duplicates allowed
+-> not maintains the order
+-> constant time search operation 
+-> no such new methods
+
+// Sorted Set
+1. public E first()
+2. public E last()
+3. public SortedSet<E> headSet(E toElement)
+4. public SortedSet<E> tailSet(E fromElement)
+5. public SortedSet<E> subSet(E fromElement, E toElement)
+
+// Navigable Set
+1. public E lower(E e)
+2. public E higher(E e)
+3. public E floor(E e)
+4. public E ceiling(E e)
+5. public E pollFirst()
+6. public E pollLast()
+7. public NavigableSet<E> descendingSet()
+8. public Iterator<E> descendingIterator()
+ 
