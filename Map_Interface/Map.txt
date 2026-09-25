@@ -1,0 +1,22 @@
+HashMap -> 
+1. boolean containsKey(Object key)
+2. boolean containsValue(Object value)
+3. V put(K key, V value)
+4. size()
+5. isEmpty()
+6. V get(Object key)
+7. V remove(Object key)
+8. void putAll(Map<? extends K, ? extends V> m)
+9. clear()
+10. Set<K> keySet()
+11. Collection<V> values()
+12. Set<Map.Entry<K, V>> entrySet()
+13. default V getOrDefault(Object key, V defaultValue)
+14. default V putIfAbsent(K key, V value)
+15. default boolean remove(Object key, Object value)
+16. default V replace(K key, V value)
+17. default boolean replace(K key, V oldValue, V newValue)
+18. static <K, V> Map<K, V> of(K k1, V v1, K k2, V v2)
+
+TreeSet
+1. same methods like TreeSet like first -> firstKey, headSet -> headMap
