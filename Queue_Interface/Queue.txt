@@ -1,0 +1,24 @@
+# Queue interface methods (FIFO)
+// Single ended queue
+1. public boolean add(E e) -> unsafe, exception
+2. public boolean offer(E e) -> safe
+3. public E peek() -> safe
+4. public E element() -> unsafe
+5. E remove() -> unsafe
+6. E poll() -> safe
+
+// Doubly ended queue (Deque)
+1. addFirst(), addLast()
+2. offerFirst(), offerLast()
+3. peekFirst(), peekLast()
+4. getFirst(), getLast()
+5. removeFirst(), removeLast()
+6. pollFirst(), pollLast()
+
+// Stack (LIFO)
+1. push() -> offerFirst()
+2. pop() -> pollFirst()
+3  peek() -> peekFirst()
+
+// PriorityQueue -> No FIFO
+- Heap data structure - > Min Heap/ Max Heap
